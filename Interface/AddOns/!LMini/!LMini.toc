@@ -1,0 +1,17 @@
+## Interface: 40300
+## Title: |cffff00ffL|rMini
+## Notes: Mini Addons compilation
+
+AlreadyKnown.lua
+AuctionPlus.lua
+cError.lua
+Focuser.lua
+GuildRosterSelectedFix.lua
+HideBlizzardRaidui.lua
+HoverBind.lua
+InspectFix.lua
+Lexpand.lua
+PowerSource.lua
+rollcolector.lua
+SpellID.lua
+yQuestLevel.lua

@@ -1,0 +1,20 @@
+3.3.0.6-Release
+    No changes, just tagging as a stable release
+
+3.1.0.5-Beta
+    Fix AddonLoader condition
+
+3.0.3.4-Beta
+    Add "type" to LDB feed
+
+3.0.2.3-Beta
+    Add icon to LDB feed
+    Embed update
+
+2.4.3.2-Beta
+    Hey look, when you use the right event, IT UPDATES CORRECTLY
+    Use min durability instead of average.
+    Make data refresh on every event, since we now (potentially) have an always-up frame
+
+2.4.2.1-Beta
+    Initial release

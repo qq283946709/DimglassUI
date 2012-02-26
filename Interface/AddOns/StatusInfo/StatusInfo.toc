@@ -1,0 +1,7 @@
+﻿## Interface: 40300
+## Author: surgesoft
+## Notes:   A simple combat attributes    monitor 
+## Version: 2.04
+## Title: |cffff00ffStatusInfor 2.04
+## SavedVariables: StatusSave
+StatusInfo.lua

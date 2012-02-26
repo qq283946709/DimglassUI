@@ -1,0 +1,22 @@
+## Interface: 40300
+## Author: zork
+## Version: 2.1
+## Title: rActionBarStyler
+## Notes: Simple actionbars
+
+config.lua
+bars\slashcmd.lua
+bars\hideblizz.lua
+bars\bar1.lua
+bars\bar2.lua
+bars\bar3.lua
+bars\bar4.lua
+bars\bar5.lua
+bars\extra.lua
+bars\stancebar.lua
+bars\petbar.lua
+bars\totembar.lua
+bars\vehicleexit.lua
+bars\bags.lua
+bars\micromenu.lua
+bars\extra.lua

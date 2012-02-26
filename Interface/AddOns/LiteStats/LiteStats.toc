@@ -1,0 +1,18 @@
+## Interface: 40300
+## Title: Lite|cff44CCFFStats
+## Author: Katae @ WowInterface.com
+## Notes: Useful little info texts
+## Version: 40000.5
+## RequiredDeps: LitePanels
+## SavedVariables: LPSTAT
+
+locale\deDE.lua
+locale\esES.lua
+locale\frFR.lua
+locale\koKR.lua
+locale\ruRU.lua
+locale\zhCN.lua
+locale\zhTW.lua
+
+config.lua
+core.lua

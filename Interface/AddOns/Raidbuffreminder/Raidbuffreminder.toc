@@ -1,0 +1,5 @@
+## Interface: 40300
+## Title: |cffff00ffR|raidbuffreminder
+## Notes: raid buff reminder
+
+Raidbuffreminder.lua

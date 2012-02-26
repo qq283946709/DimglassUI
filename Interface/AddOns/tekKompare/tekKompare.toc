@@ -1,0 +1,19 @@
+## Interface: 40300
+## X-Curse-Packaged-Version: 4.0.0.9-Release
+## X-Curse-Project-Name: tekKompare
+## X-Curse-Project-ID: tekkompare
+## X-Curse-Repository-ID: wow/tekkompare/mainline
+
+## Title: tekKompare
+## Notes: Simple item compare tooltips
+## Author: Tekkub Stoutwrithe
+## Version: 4.0.0.9
+## X-Website: http://www.tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Interface Enhancements
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+tekKompare.lua
+HoverTips.lua

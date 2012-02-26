@@ -1,0 +1,27 @@
+------------------------------------------------------------------------
+r34 | kunda | 2011-06-29 13:30:24 +0000 (Wed, 29 Jun 2011) | 1 line
+Changed paths:
+   A /tags/40200-1 (from /trunk:33)
+
+Tagging as 40200-1
+------------------------------------------------------------------------
+r33 | kunda | 2011-06-29 13:29:53 +0000 (Wed, 29 Jun 2011) | 1 line
+Changed paths:
+   M /trunk/DrainSouler.lua
+   M /trunk/DrainSouler.toc
+
+Patch 4.2 update
+------------------------------------------------------------------------
+r32 | kunda | 2011-06-19 22:12:32 +0000 (Sun, 19 Jun 2011) | 1 line
+Changed paths:
+   M /trunk/DrainSouler-localization-deDE.lua
+
+deDE update
+------------------------------------------------------------------------
+r30 | kunda | 2011-06-11 02:49:01 +0000 (Sat, 11 Jun 2011) | 1 line
+Changed paths:
+   M /trunk/DrainSouler.lua
+   M /trunk/DrainSouler.toc
+
+added Channel option to 'TickSound' and '25% HP Sound' (Master, Sound (SFX), Ambience and Music) - DEFAULT = Sound (SFX)
+------------------------------------------------------------------------

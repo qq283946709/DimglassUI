@@ -1,0 +1,8 @@
+## Interface: 40300
+## Title: mono|cffffffffMinimap|r
+## Notes: Slightly simplified combination of aMinimap v1 and v2 (with GUI) by ALZA
+## Author: ALZA, Monolit
+## Version: 1.7
+## OptionalDeps: Blizzard_TimeManager
+
+m_Minimap.lua

@@ -1,0 +1,73 @@
+-- TradeSkillMaster Locale - zhCN
+-- Please use the localization app on CurseForge to update this
+-- http://wow.curseforge.com/addons/TradeSkill-Master/localization/
+
+local L = LibStub("AceLocale-3.0"):NewLocale("TradeSkillMaster", "zhTW")
+if not L then return end
+
+L["TradeSkillMaster"] = "宅工厂"
+
+L["%s/tsm help%s for a list of slash commands"] = "输入%s/tsm help%s获得指令列表"
+L["%sDrag%s to move this button"] = "%s拖动%s可以移动此按钮"
+L["%sLeft-Click%s to open the main window"] = "%s鼠标左键点击%s打开主窗口"
+L["/tsm help|r - Shows this help listing"] = "/tsm help|r - 显示帮助列表"
+L["/tsm|r - opens the main TSM window."] = "/tsm|r - 打开TSM主窗口."
+L["\"/tsm adbreset\" will reset AuctionDB's scan data. There is a confirmation prompt."] = "\"/tsm adbreset\" 重置市场分析部的扫描数据。该操作将弹出确认框。"
+L["|cffffff00Important Note:|r You do not currently have any modules installed / enabled for TradeSkillMaster! |cff77ccffYou must download modules for TradeSkillMaster to have some useful functionality!|r\n\nPlease visit http://wow.curse.com/downloads/wow-addons/details/tradeskill-master.aspx and check the project description for links to download modules."] = "|cffffff00重要提示：|r你目前未安装或加载任何模块，|cff77ccff必须启用或下载一些模块以使插件完全运作!|r\n\n访问 http://wow.curse.com/downloads/wow-addons/details/tradeskill-master.aspx下载必要的模块。"
+L["|cffffffff<<Remove|r"] = "|cffffffff<<移除|r"
+L["|cffffffffAdd>>|r"] = "|cffffffff添加>>|r"
+L["Active Developers:"] = "活跃开发者:"
+L["Alpha Testers:"] = "测试人员:"
+L["and many others"] = "及其他人"
+L["Any craft that is disabled in the category pages of one of the Crafting profession icons in the main TSM window won't show up in the Craft Management Window."] = "已经在主窗口专业技能图标下分类页面中禁用的制作条目不会显示在 生产部 界面。"
+--L["Are you a programmer or even wow addon developer? The TSM team is looking for more developers to help develop new features! Please visit |cffffff00bit.ly/iziCpq|r for more info (or click on the link in the addon description for the main TradeSkillMas
+
+L["AuctionDB can put market value, min buyout, and seen count info into item tooltips. You can turn this on / off in the options tab of the AuctionDB page."] = "可以在鼠标提示中显示 市场分析部 的物品的市场价/最低一口价/统计数据。你可以在市场分析部的设置页面开启或关闭这个功能."
+L["Auctioning keeps a log of what it's doing during a post/cancel/status scan. Click on the \"Log\" button at the top of the Auctions tab of the AH to view it."] = "销售部在 发布/取消/状态 扫描的同时输出日志。点击拍卖行拍卖标签上方的\"日志\"按钮来查看。"
+L["Auctioning's CancelAll scan can be used to quickly cancel specific items. Anything from items under a certain duration to specific items, to entire groups."] = "销售部的条件撤销可以快速撤销指定的物品, 比如在一定拍卖持续时间内的物品或某个群组中的所有物品。"
+L["Author(s):"] = "作者："
+L["Automatically Open Sidebar"] = "自动打开侧边栏"
+L["Click to add the selected items to the list on the right."] = "选定物品添加到右侧列表"
+L["Click to remove the selected items from the list on the right."] = "将右侧列表选定物品移除"
+L["Contributing Developers (no longer active):"] = "有贡献者(非活跃)："
+L["Crafting can make Auctioning groups for you. Just click on a profession icon, a category, and then the \"Create Auctioning Groups\" button."] = "生产部可以为你创建分组, 只需要点击一个专业技能图标, 然后点击\"创建拍卖分组\"按钮即可。"
+L["Crafting's on-hand queue will queue up the most profitable items you can make from the materials you have in your bags."] = "生产部 中的\"一键队列\"功能会根据你背包中持有的材料自动生成一份利润最大化的生产序列。"
+L["Credits"] = "制作组"
+L["Description:"] = "说明："
+L["Gathering can collect materials you need for your craft queue from your bank, guild bank, and alts."] = "资源管理部可以为你的制造队列从玩家/小号银行/公会银行中收集必要的原材料。"
+L["Gathering has an option for showing inventory info in item tooltips."] = "资源管理部有一个选项使用鼠标提示来显示背包信息."
+L["Have you tried running a GetAll scan? It's the fastest possible way to scan by far so give it a shot!"] = "你有试过运行获取所有扫描吗？它是最快的扫描方法，来试一试吧！"
+L["Hide the TradeSkillMaster minimap icon."] = "隐藏小地图上的图标。"
+L["If checked, the sidebar will open automatically whenever you open up the auction house window."] = "勾选此项，你每次打开拍卖行时都将自动打开侧边栏"
+L["If the Craft Management Window is too big, you can scale it down in the Crafting options."] = "生产部 的界面大小可以缩放。"
+L["I'll Go Check Them Out!"] = "马上检查更新"
+L["I'll Go There Now!"] = "马上去下载"
+L["Installed Modules"] = "已安装模块"
+L["Just incase you didn't read this the first time:"] = "以防第一次运行时你没有阅读以下内容："
+L["Lead Developer and Project Manager:"] = "主要开发者及项目负责人:"
+L["Module:"] = "模块："
+L["New Tip"] = "换个提示"
+L["No modules are currently loaded.  Enable or download some for full functionality!"] = "目前未加载任何模块，启用或下载一些模块以使插件完全运作!"
+--L["OK!"] = true
+L["Project Organizer / Resident Master Goblin:"] = "项目组织者："
+L["Provides the main central frame as well as APIs for all TSM modules."] = "为所有模块提供主体框架及支持接口。"
+L["Slash Commands:"] = "命令行："
+L["Special thanks to our alpha testers:"] = "特别感谢我们的测试人员:"
+L["Status"] = "状态"
+L["Thanks!"] = "非常感谢！"
+L["The only required module of TradeSkillMaster is the main one (TradeSkillMaster). All others may be disabled if you are not using them."] = "禁用主体程序后，依附本程序的模块将无法工作。"
+--L["There have been |cffffff00TWO NEW TSM MODULES|r released recently! Check the curse description for the main TradeSkillMaster addon for more info!"] = true
+L["There is a checkbox for hiding the minimap icon in the status page of the main TSM window."] = "可以在主窗口设置中开启或关闭小地图上的图标。"
+L["There is an option for hiding Auctioning's advanced options in the top \"Options\" page of the Auctioning page in the main TSM window."] = "在主窗口的销售部页面最上方\"选项\"窗口中，可以设置隐藏\"销售部高级设置\"。"
+L["Tip: "] = "提示："
+L["TradeSkillMaster Info:"] = "TradeSkillMaster 信息:"
+L["TradeSkillMaster Sidebar"] = "侧边栏"
+L["TradeSkillMaster Team:"] = "开发组:"
+L["TradeSkillMaster was designed to be as user friendly as possible. However, should you get lost please read the 'TSM Guidebook' pdf located in your TradeSkillMaster folder in your addons folder.\n\nAlso feel free to pop into the IRC (http://tradeskillmaster.wikispaces.com/IRC) for help.\n\nEnjoy!"] = "宅工厂是个开发的非常友好及容易上手的程序。你可以通过访问本插件目录下的“TSM Guidebook”PDF文档，或者访问官方IRC(http://tradeskillmaster.wikispaces.com/IRC)寻求帮助。"
+L["Translators:"] = "翻译："
+L["Version:"] = "版本："
+L["Visit http://wow.curse.com/downloads/wow-addons/details/tradeskill-master.aspx for information about the different TradeSkillMaster modules as well as download links."] = "访问 http://wow.curse.com/downloads/wow-addons/details/tradeskill-master.aspx 以获取不同的模块信息及其下载链接。"
+L["Want more tips? Click on the \"New Tip\" button at the bottom of the status page."] = "点击\"换个提示\"更新提示信息"
+L["When using shopping to buy herbs for inks, it will automatically check if it's cheaper to buy herbs for blackfallow ink and trade down (this can be turned off)."] = "当采购部购买草药用于制造墨水时, 系统会自动分析购买原材料制作低级墨水和使用黑棕墨水换购这二者哪种成本更低。(这个功能可关闭)"
+L["You can use the icons on the right side of this frame to quickly access auction house related functions for TradeSkillMaster modules."] = "你可以借助本窗口右边的图标来快速使用TSM模块中的拍卖行相关功能"
+

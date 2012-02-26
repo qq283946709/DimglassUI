@@ -1,0 +1,147 @@
+40000.5 -- 2011.03.12
+- Added average ilvl to the durability tooltip.
+- Friends list module was not updating when BN friends list changed.
+- Explicitly converted 'lastkill' and 'lastquest' to a number in case it was being interpreted as a string. May have been causing some errors.
+
+40000.4 -- 2011.02.15
+- Fixed clock bug and added the Tol Barad timer. (donjon & dutorien)
+- Moved around the default location of modules in the config in relation to the default minimal.
+- Disabled the Coords, Talent, and Stats modules by default.
+- Player name is no longer hidden in the guild module.
+- Default minimap zone text is now hidden when the Location module is enabled.
+- DPS module, if set to do so, will now hide when inactive after 10 seconds. DPS value can now be shortened (15.2k).
+
+40000.3 -- 2010.10.24
+- Minor code cleanup.
+- Fixed issue where b.net friends' real names were not showing up by holding alt if the person didn't have a note.
+
+40000.2 -- 2010.10.18
+- Removed talent spam filtering, obsolete.
+- Fixed bug equipmentManager bug. (thanks lainbh)
+- Guild module now opens the new guild frame. (thanks lainbh)
+- Friends module now shows Battle.net friends. Holding alt will show the player's real name while they're logged into WoW.
+- Fixed watched currency icon.
+
+40000.1 -- 2010.10.13
+- 4.0 toc update.
+- Ammo module obsolete, removed.
+- Tracking module obsolete, removed.
+- Talent module bugs squashed.
+- Bug with the default clock not hiding correctly.
+
+30300.9 -- 2010.08.13
+- Enabled ability to set font to each stat individually. Simply use the following attributes in the individual stat settings: font, color, size, alpha, outline, and/or shadow.
+
+30300.8 -- 2010.08.04
+- Added Korean (koKR) locale. Updated Spanish (esES) locale.
+
+0.9.10a -- 2010.01.29
+- Localization updates: frFR added, complete; esES added, partial; deDE updated. 
+
+0.9.10 -- 2010.01.29
+- Added [color] tag, for a gradient color code, to latency and durability modules.
+- Added latency and fps to the memory tooltip.
+- Hidden addons in the memory module, or hidden guild mates in the guild module can now be exposed by holding the Alt key.
+- Faction name subs config added (faction_subs).
+- Faction tooltip with basic info added.
+- Localization updates. zhTW added, partial.
+
+0.9.9 -- 2010.01.08
+- ruRU and deDE localizations added. http://wow.curseforge.com/addons/litepanels/localization/
+- Commented out d/h/m/s variables in experience module, customize by uncommenting.
+- Changed default font to a more universal locale friendly one.
+- Added ammo module by request. Enabled only on hunters by default.
+- Added reputation watcher to experience module. Change format with the new faction_fmt variable.
+- Left-click now cycles between experience, time played, and reputation.
+- Experience module variable changes: normal_fmt -> xp_normal_fmt, rested_fmt -> xp_rested_fmt, maxlevel_fmt -> played_fmt
+- Moved LPSTAT_SUBS table to Talents.name_subs in the module config.
+
+0.9.8a -- 2009.12.15
+- Small variable bug fix in experience module. Forgot to document changing the variable Experience.fmt to Experience.normal_fmt.
+
+0.9.8 -- 2009.12.14
+- Added in-combat hiding options for all or specific stats.
+- Equipment set switching menu added to durability module. Shift-click or Middle-click opens it.
+
+0.9.7a -- 2009.12.08
+- Fixed error when config.lua isn't installed.
+
+0.9.7 -- 2009.12.08
+- 3.3 toc update.
+- Renamed default config file to config_default.lua. Config now installed by changing the name to config.lua.
+- Renamed Experience.fmt variable to Experience.normal_fmt
+- Added location module's chat coords functionality to the coords module.
+- Rewrote the coords module. Less buggy now.
+- Added memory gradient coloring in memory tooltip.
+- Modules anchored to a disabled module will no longer be hidden.
+- Experience module and tags revamped, please see new config for changes.
+- Playtime added to experience module, hold alt to see all character's total time played (default when max level).
+- Minor time format changes (#d #h #m #s).
+- Asterisk next to grouped friend/guildies is now colored green if in player's current zone, orange if not.
+- Added /lstats command. Lists tips on how to use various module functionalities.
+
+0.9.6c -- 2009.11.12
+- Reverted last revision's "icon_size" setting changes back to "iconsize". This was causing a little confusion.
+- Tracking icon bug fixed.
+- Removed coord tracking inside instances. This was causing the world map to hide itself when opened.
+
+0.9.6b -- 2009.11.11
+- Added global tooltip icon setting (LTIPICONSIZE)
+- Added icon tag to tracking module.
+
+0.9.6a -- 2009.11.11
+- Various bug fixes
+- Class names can now be used in profiles.
+
+0.9.6 -- 2009.11.11
+- Added character stats module. Two strings available for dual specs, configurable by tags. Tag list is in config.
+- Added experience module, tag configurable. Basic, much more functionality is planned in the future.
+- Added coordinates module (off by default), location module tooltip retains coord functionality.
+- Added an asterisk to friends and guild members that are in your group or raid.
+- Added a default guild roster sorting setting.
+- Tracked currencies added to the gold module. Left-click now opens currencies tab.
+- Added the default UI mail tooltip to the mail module.
+
+0.9.5a -- 2009.11.04
+- Fixed a bug with class localizations in the friends module.
+
+0.9.5 -- 2009.11.04
+- Moved all of the configuration variables to config.lua. Included a string class coloring function.
+- Guild list tooltip added to the guild module. Right-click cycles sorting name/level/class/zone, shift right-click reverses the current sort. Hold the Alt key to view or sort by notes and ranks.
+- Friends list tooltip added to the friends module. Hold the Alt key to view notes.
+- Reworked the clock module. The clock display now reflects the settings in the Time Manager (right-click).
+- Memory module will now display in KB when below 1MB.
+- Bugs in the talents module squashed.
+- Made changes to string format configs dealing with numbers, allowing for more control over decimals.
+- Stat building structure changed, see NewStat().
+
+0.9.4 -- 2009.10.29
+- Fixed a bug in the clock module.
+- Added icon tag and chat filter to the talents module.
+
+0.9.3 -- 2009.10.25
+- Moved autosell/repair default savedvars to set themselves on login.
+- 24-hour option added to the Clock module.
+- Inventory repairs can now be ignored/unignored via the ignore_inventory option.
+- Added guild and friends modules. Clicking will toggle either the guild or friends/ignore list.
+- Added bag space module. Clicking opens/closes all bags.
+- Added talents module. Clicking swaps spec if dual spec is learned, right-click opens the talent UI.
+- Provided a commented stat template near the end of core.lua.
+
+0.9.2 -- 2009.10.13
+- Added a junk profit chat printout. Chat gold format changed.
+
+0.9.1 -- 2009.10.13
+- Removed some personal tweaks I forgot to remove in the release.
+- Fixed a bug with profiles and moved them to a different file, profiles.lua
+- Added variable for changing the number of letters the location text is truncated by, 0 disables this feature.
+- Option for displaying local time added.
+- Added chat syntax explanation for /junk.
+- Tooltip click polishing.
+- Default for DPS hide_inactive enabled.
+- Added coords to the location tooltip, auto-updates. Shift-clicking location text will insert the player's zone and coords into the chat edit box.
+- Memory tooltip now auto-updates while hovered.
+- Included 04b03 font. http://www.dsg4.com/04/extra/bitmap/index.html
+
+0.9 -- 2009.10.12
+- Initial release.

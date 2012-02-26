@@ -1,0 +1,30 @@
+## Interface: 40300
+## Title: |cff00ff00TradeSkillMaster_Auctioning|r
+## Notes: Manages your auctions!
+## Author: Sapu94
+## Version: v0.3.5.2Beta
+## Dependency: TradeSkillMaster
+## SavedVariables: TradeSkillMaster_AuctioningDB
+## X-Curse-Packaged-Version: v0.3.5.2Beta
+## X-Curse-Project-Name: TradeSkillMaster_Auctioning
+## X-Curse-Project-ID: tradeskillmaster_auctioning
+## X-Curse-Repository-ID: wow/tradeskillmaster_auctioning/mainline
+
+Locale\enUS.lua
+Locale\deDE.lua
+Locale\esES.lua
+Locale\esMX.lua
+Locale\frFR.lua
+Locale\koKR.lua
+Locale\ruRU.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+
+TradeSkillMaster_Auctioning.lua
+modules\cancel.lua
+modules\config.lua
+modules\log.lua
+modules\post.lua
+modules\scan.lua
+modules\manage.lua
+modules\status.lua

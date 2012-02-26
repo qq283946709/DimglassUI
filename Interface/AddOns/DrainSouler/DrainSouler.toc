@@ -1,0 +1,22 @@
+## Interface: 40300
+## Author: kunda
+## Title: DrainSouler
+## Notes: Drain Soul Notifier for Affliction Warlocks. Notifies you if target HP is below 25% - with Icon, HP%, DMG, Tick, TickTimer, TickSound and 25%HP-Sound.
+## Version: 40300-1
+## SavedVariables: DrainSouler_Options
+## X-Curse-Packaged-Version: r32
+## X-Curse-Project-Name: DrainSouler
+## X-Curse-Project-ID: drainsouler
+## X-Curse-Repository-ID: wow/drainsouler/mainline
+## X-Curse-Packaged-Version: 40300-1
+## X-Curse-Project-Name: DrainSouler
+## X-Curse-Project-ID: drainsouler
+## X-Curse-Repository-ID: wow/drainsouler/mainline
+
+DrainSouler-localization-enUS.lua
+DrainSouler-localization-deDE.lua
+DrainSouler-localization-frFR.lua
+DrainSouler-localization-koKR.lua
+DrainSouler-localization-zhCN.lua
+DrainSouler-localization-zhTW.lua
+DrainSouler.lua

@@ -1,0 +1,14 @@
+## Interface: 40300
+## Title: Skada |r[|caaedc99fDark Intent|r]
+## Notes: Tracks Dark Intent uptime per stack as well as well as average stack size
+## Author: stencil
+## Version: 1.0.00
+## X-Curse-Packaged-Version: r4
+## X-Curse-Project-Name: SkadaDarkIntent
+## X-Curse-Project-ID: skadadarkintent
+## X-Curse-Repository-ID: wow/skadadarkintent/mainline
+
+## Dependencies: Skada
+
+locale\enUS.lua
+SkadaDarkIntent.lua

@@ -1,0 +1,8 @@
+## Interface: 40300
+## Title: mono|cffffffffBuffs|r
+## Author: Monolit
+## Notes: Buffs styling
+## Version:  1.2.3
+
+cfg.lua
+m_Buffs.lua

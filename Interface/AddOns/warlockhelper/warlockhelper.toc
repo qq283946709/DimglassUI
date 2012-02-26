@@ -1,0 +1,7 @@
+## Interface: 40300
+## Title: Warlock Helper
+## Notes: Help warlock
+## Author: Loshine
+## Version: 0.1beta
+
+core.lua

@@ -1,0 +1,58 @@
+------------------------------------------------------------------------
+r27 | kunda | 2011-05-08 13:18:54 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   A /tags/40100-2 (from /trunk:26)
+
+Tagging as 40100-2
+------------------------------------------------------------------------
+r26 | kunda | 2011-05-08 13:13:25 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   M /trunk/DrainSouler.lua
+
+update
+------------------------------------------------------------------------
+r25 | kunda | 2011-05-08 12:50:16 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   M /trunk/DrainSouler.lua
+
+removed debugcode
+------------------------------------------------------------------------
+r24 | kunda | 2011-05-08 12:43:22 +0000 (Sun, 08 May 2011) | 1 line
+Changed paths:
+   A /trunk/DrainSouler-texture-icons.tga
+   M /trunk/DrainSouler.lua
+
+update
+------------------------------------------------------------------------
+r23 | kunda | 2011-05-08 12:32:45 +0000 (Sun, 08 May 2011) | 5 lines
+Changed paths:
+   M /trunk/DrainSouler-localization-deDE.lua
+   M /trunk/DrainSouler-localization-enUS.lua
+   A /trunk/DrainSouler-localization-frFR.lua
+   M /trunk/DrainSouler-localization-koKR.lua
+   M /trunk/DrainSouler-localization-zhCN.lua
+   M /trunk/DrainSouler-localization-zhTW.lua
+   A /trunk/DrainSouler-sound25p-alarm1.ogg
+   A /trunk/DrainSouler-sound25p-alarm2.ogg
+   A /trunk/DrainSouler-sound25p-alarm3.ogg
+   A /trunk/DrainSouler-sound25p-bmmmmmm.ogg
+   A /trunk/DrainSouler-sound25p-dingding.ogg
+   A /trunk/DrainSouler-sound25p-electro.ogg
+   A /trunk/DrainSouler-sound25p-horn.ogg
+   A /trunk/DrainSouler-sound25p-radarping.ogg
+   M /trunk/DrainSouler.lua
+   M /trunk/DrainSouler.toc
+
+DrainSouler:
+- bugfix (TickTimer)
+- added 25% HP Warning Sound (DISABLED by DEFAULT)
+- added option to deactivate DrainSouler if you use Demonology or Destruction (DISABLED by DEFAULT)
+- removed alpha option (this is now always 1)
+------------------------------------------------------------------------
+r21 | kunda | 2011-04-27 11:26:13 +0000 (Wed, 27 Apr 2011) | 1 line
+Changed paths:
+   M /trunk/DrainSouler.lua
+   M /trunk/DrainSouler.toc
+
+update for patch 4.1
+------------------------------------------------------------------------

@@ -1,0 +1,7 @@
+## Interface: 40300
+## Title: Addon|cff44CCFFskin
+## Notes: addonskin
+## OptionalDeps: Skada, DBM-Core
+
+dbm.lua
+skada.lua

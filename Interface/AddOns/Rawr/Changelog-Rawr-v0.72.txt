@@ -1,0 +1,128 @@
+------------------------------------------------------------------------
+r8 | pericles | 2011-12-19 22:46:33 +0000 (Mon, 19 Dec 2011) | 1 line
+Changed paths:
+   A /tags/v0.72 (from /trunk:7)
+
+Release PROPER Curse linked version with libraries and locale files correctly included.
+------------------------------------------------------------------------
+r7 | pericles | 2011-12-19 22:26:19 +0000 (Mon, 19 Dec 2011) | 3 lines
+Changed paths:
+   M /trunk/Export.lua
+   M /trunk/Frame.lua
+   M /trunk/Import.lua
+   M /trunk/Locales/Locale-enUS.lua
+   M /trunk/Options.lua
+   M /trunk/Rawr.lua
+   M /trunk/Rawr.toc
+
+Version 0.72
+	Drycoded fix to hopefully allow users to use addon again
+
+------------------------------------------------------------------------
+r5 | pericles | 2011-11-30 22:29:56 +0000 (Wed, 30 Nov 2011) | 1 line
+Changed paths:
+   M /trunk/Rawr.lua
+   M /trunk/Rawr.toc
+
+Update for patch 4.3
+------------------------------------------------------------------------
+r4 | pericles | 2011-01-16 20:39:54 +0000 (Sun, 16 Jan 2011) | 1 line
+Changed paths:
+   M /trunk
+   A /trunk/.pkgmeta
+   A /trunk/Bindings.xml
+   A /trunk/Export.lua
+   A /trunk/Frame.lua
+   A /trunk/Frame.xml
+   A /trunk/Import.lua
+   A /trunk/ItemIdToEnchantId.lua
+   A /trunk/ItemIdToEnchantId.xml
+   A /trunk/Libs
+   A /trunk/Libs/AceAddon-3.0
+   A /trunk/Libs/AceAddon-3.0/AceAddon-3.0.lua
+   A /trunk/Libs/AceAddon-3.0/AceAddon-3.0.xml
+   A /trunk/Libs/AceConfig-3.0
+   A /trunk/Libs/AceConfig-3.0/AceConfig-3.0.lua
+   A /trunk/Libs/AceConfig-3.0/AceConfig-3.0.xml
+   A /trunk/Libs/AceConfig-3.0/AceConfigCmd-3.0
+   A /trunk/Libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+   A /trunk/Libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.xml
+   A /trunk/Libs/AceConfig-3.0/AceConfigDialog-3.0
+   A /trunk/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   A /trunk/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.xml
+   A /trunk/Libs/AceConfig-3.0/AceConfigDropdown-3.0
+   A /trunk/Libs/AceConfig-3.0/AceConfigRegistry-3.0
+   A /trunk/Libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   A /trunk/Libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.xml
+   A /trunk/Libs/AceConsole-3.0
+   A /trunk/Libs/AceConsole-3.0/AceConsole-3.0.lua
+   A /trunk/Libs/AceConsole-3.0/AceConsole-3.0.xml
+   A /trunk/Libs/AceDB-3.0
+   A /trunk/Libs/AceDB-3.0/AceDB-3.0.lua
+   A /trunk/Libs/AceDB-3.0/AceDB-3.0.xml
+   A /trunk/Libs/AceEvent-3.0
+   A /trunk/Libs/AceEvent-3.0/AceEvent-3.0.lua
+   A /trunk/Libs/AceEvent-3.0/AceEvent-3.0.xml
+   A /trunk/Libs/AceGUI-3.0
+   A /trunk/Libs/AceGUI-3.0/AceGUI-3.0.lua
+   A /trunk/Libs/AceGUI-3.0/AceGUI-3.0.xml
+   A /trunk/Libs/AceGUI-3.0/widgets
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-SimpleGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   A /trunk/Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+   A /trunk/Libs/AceHook-3.0
+   A /trunk/Libs/AceHook-3.0/AceHook-3.0.lua
+   A /trunk/Libs/AceHook-3.0/AceHook-3.0.xml
+   A /trunk/Libs/AceLocale-3.0
+   A /trunk/Libs/AceLocale-3.0/AceLocale-3.0.lua
+   A /trunk/Libs/AceLocale-3.0/AceLocale-3.0.xml
+   A /trunk/Libs/CallbackHandler-1.0
+   A /trunk/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+   A /trunk/Libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
+   A /trunk/Libs/LibSharedMedia-3.0
+   A /trunk/Libs/LibSharedMedia-3.0/LibSharedMedia-3.0.lua
+   A /trunk/Libs/LibSharedMedia-3.0/lib.xml
+   A /trunk/Libs/LibStub
+   A /trunk/Libs/LibStub/.pkgmeta
+   A /trunk/Libs/LibStub/LibStub.lua
+   A /trunk/Libs/LibStub/LibStub.toc
+   A /trunk/Locales
+   A /trunk/Locales/Locale-deDE.lua
+   A /trunk/Locales/Locale-enUS.lua
+   A /trunk/Locales/Locale-esES.lua
+   A /trunk/Locales/Locale-esMX.lua
+   A /trunk/Locales/Locale-frFR.lua
+   A /trunk/Locales/Locale-koKR.lua
+   A /trunk/Locales/Locale-ruRU.lua
+   A /trunk/Locales/Locale-zhCN.lua
+   A /trunk/Locales/Locale-zhTW.lua
+   A /trunk/Locales/Locales.xml
+   A /trunk/Options.lua
+   A /trunk/Rawr.lua
+   A /trunk/Rawr.toc
+   A /trunk/Textures
+   A /trunk/Textures/Border.blp
+   A /trunk/Textures/Rawr.tga
+   A /trunk/embeds.xml
+
+test exported code from codeplex
+------------------------------------------------------------------------
